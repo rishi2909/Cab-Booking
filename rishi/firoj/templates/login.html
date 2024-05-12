@@ -1,0 +1,76 @@
+<html>
+    <style>
+        body{
+            background-image: url('login.jpg');
+        }
+        #l{
+            background-color: rgb(53, 53, 211);
+            text-align: center;
+            
+        }
+        #log{
+            position:absolute;
+            top:30%;
+            left:40%;
+            width:200px;
+            padding:80px 5px 90px 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color:antiquewhite;
+            text-align: center;
+            border-radius: 20px;
+            background-color: beige;
+            box-shadow: 0 10px 25px 0 #162116;
+        }
+        #e{
+            color:black;
+        }
+
+        #m{
+            background-color: cadetblue;
+            border-radius:50px;
+            border-radius:50px;
+            border: 0;
+            font-size:2rem;
+            font-weight: 150;
+            margin:2rem 0;
+           
+        }
+        #m1{
+            float:right;
+        }
+        button{
+            display: inline-block;
+            width: 180px;
+            height: 50px;
+            line-height: 50px;
+            background: linear-gradient(to left, #e91e63, #f44336);
+            box-shadow: 0 10px 25px #e91e6360;
+            border-radius: 50px;
+            border: none;
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+            text-transform:uppercase ;
+            letter-spacing: 1px;
+
+        }
+       
+    </style>
+    <body>
+        <div id="log">
+        
+        <form action="logcode">
+            
+            <label id="e">Email:</label><input type="text" name="a1"><br><br>
+            <label id="e">password:</label><input type="text" name="a2"><br><br>
+            <button type="submit">Login</button>
+        </form>
+        </div>
+
+        <div id="m1">
+            <a href="home"><button id="m" class="btn btn--primary"> HOME </button></a><br>
+            
+            
+        </div>
+    </body>
+</html>

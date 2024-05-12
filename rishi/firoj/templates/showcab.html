@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <table>
+            <tr><td>Driver Name</td><td>Car Number</td><td>Driver Mobile No</td><td>Car Type</td></tr>
+            {% for i in a%}
+            <tr><td>{{i.DName}}</td><td>{{i.CNo}}</td><td>{{i.DphNo}}</td><td>{{i.CType}}</td></tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

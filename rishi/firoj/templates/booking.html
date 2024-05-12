@@ -1,0 +1,102 @@
+<html>
+
+<style>
+
+body{
+            
+            background-image: url("taxi.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        #cinfo{
+            position:absolute;
+            top:20%;
+            left:10%;
+            width:200px;
+            padding:70px 0 70px 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color:rgb(244, 222, 193);
+            text-align: center;
+            border-radius: 20px;
+            background-color: beige;
+           
+        }
+        #c{
+            color: black;
+        }
+        #d{
+            color: blueviolet;
+        }
+        #b_details{
+            position:absolute;
+            top:50%;
+            left:30%;
+            width:200px;
+            padding:70px 0 70px 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color:rgb(244, 222, 193);
+            text-align: center;
+            border-radius: 20px;
+            background-color: beige;
+           
+        }
+        .btn{
+            border-radius:50px;
+            border: 0;
+            font-size:1rem;
+            font-weight: 100;
+            margin:1rem 0;
+           color:black;
+        }
+        
+       
+    button{
+            display: inline-block;
+            width: 180px;
+            height: 100px;
+            line-height: 50px;
+            background: linear-gradient(to left, #e91e63, #f44336);
+            box-shadow: 0 10px 25px #e91e6360;
+            border-radius: 50px;
+            border: none;
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+            text-transform:uppercase ;
+            letter-spacing: 1px;
+
+        }
+
+</style>
+
+
+    <body>
+        <a href="showcab"><button id="m" class="btn btn-primary">Show available Cab</button></a>
+        <div id="cinfo">
+
+            <form action="book">
+                <label id="c">Customer Name:</label><input type="text" name="a1" placeholder=" Enter Customer Nmae" required><br><br>
+                <label id="c">Address:</label><input type="text" name="a2" placeholder="Enter Address" required><br><br>
+                <input type="text" name="a3" placeholder="pin code" required><br><br>
+                <label id="c">MObile No:</label><select><option>+91</option></select>
+                <input type="text" name="a4" placeholder="contact number" required><br><br>
+               <label id="c">Email:</label> <input type="tetx" name="a5" placeholder="Register Email" required><br><br>
+                <input type="submit">
+            </form>
+            </div>
+    
+            <div id="b_details">
+                
+                <label id="d">Pickup</label>
+                <select><option>VT Road</option><option>Nilanjan road</option><option>station road</option><option>Panihati Feri Ghat</option><option>Baranagar Metro Station</option></select><br><br>
+                <label id="d">Drop</label>
+                <select><option>VT Road</option><option>Nilanjan road</option><option>station road</option><option>Panihati Feri Ghat</option><option>Baranagar Metro Station</option></select><br><br>
+                <label id="d">Pooling(max 4)</label><select><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option></select><br><br>
+                <input type="submit"><br><br>
+              
+            </div>
+    </body>
+
+</html>
